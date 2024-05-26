@@ -43,9 +43,8 @@ let a = 1;
 let b = -6;
 let c = 9;
 let D;
-let x;
 D = b**2 - 4*a*c; // Дискрименант = 0, соответсвенно 1 корень
-x = (-b + Math.sqrt(D))/(2*a);
+const x = (-b + Math.sqrt(D))/(2*a);
 console.log('Ответ к уравнению 1: ' + x);
 
 //x2 - 4x - 5 = 0
@@ -54,16 +53,16 @@ a = 1;
 b = -4;
 c = -5;
 D = b**2 - 4*a*c; // Дискрименант = 0, соответсвенно 1 корень
-let x1 = (-b + Math.sqrt(D))/(2*a);
-let x2 = (-b - Math.sqrt(D))/(2*a);
+const x1 = (-b + Math.sqrt(D))/(2*a);
+const x2 = (-b - Math.sqrt(D))/(2*a);
 console.log('Ответ к уравнению 2: ' + x1 + ' и ' + x2);
 
 
 
 //TASK-3 n+nn+nnn
 
-let n = 3;
-let summ_3n = '' + n + n + n;
-let summ_2n = '' + n + n;
-let summ_n = Number(summ_3n) + Number(summ_2n) + n;
+const n = 3;
+const summ_3n = '' + n + n + n;
+const summ_2n = '' + n + n;
+const summ_n = Number(summ_3n) + Number(summ_2n) + n;
 console.log(summ_n);
