@@ -2,7 +2,7 @@
 
 const minAge = 18;
 const maxAge = 60;
-const age = 17;
+const age = "2";
 
 if (age < minAge) {
     console.log("You dont't have access cause your age is " + age + " It's less then");
@@ -55,16 +55,16 @@ if (age === Number(age)) {
     }
 
 
-// // 3. Делал 2. случайно сделал 3. тольк для if... Все работает, нужно переделать на switch))
+// // 3.
 
-// if (Number(age) < minAge) {
-//     console.log("You dont't have access cause your age is " + age + " It's less then");
-// } else if (Number(age) >= minAge && Number(age) < maxAge) {  
-//     console.log("Welcome !");
-// } else if (Number(age) > maxAge) { //Я думаю что сдесь необходимо указать age >= maxAge , но для проверки "Technikal work" пойдет)))
-//     console.log("Keep calm and look Culture chanel");
-// } else if (age !== Number(age)) { 
-//     console.log("Error. Enter numbers");
-// } else {
-//     console.log("Technikal work");
-// }
+if (Number(age) < minAge) {
+    console.log("You dont't have access cause your age is " + age + " It's less then");
+} else if (Number(age) >= minAge && Number(age) < maxAge) {  
+    console.log("Welcome !");
+} else if (Number(age) > maxAge) { //Я думаю что сдесь необходимо указать age >= maxAge , но для проверки "Technikal work" пойдет)))
+    console.log("Keep calm and look Culture chanel");
+} else if (age !== Number(age)) { 
+    console.log("Error. Enter numbers");
+} else {
+    console.log("Technikal work");
+}
