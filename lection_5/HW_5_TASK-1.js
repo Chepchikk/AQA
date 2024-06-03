@@ -8,6 +8,9 @@ while (number_1 < number_2) {
     number_2--;
 }
 
+
+// 2.
+
 const smile = ':)';
 let smiles = '';
 let i = 0;
